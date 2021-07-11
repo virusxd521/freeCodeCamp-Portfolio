@@ -1,0 +1,32 @@
+#header{
+    background-color: $redish-color;
+    color: $text-white;
+    font-family: $primary-fonts;
+    font-weight: 600;
+    font-size: 22px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 5px 2px 5px black;
+
+
+    #header-ul{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 1rem;
+        .header-li{
+            padding: 25px 20px;
+            display: block;
+            
+            &:hover{
+                background-color: $boxes-color;
+            }
+        }
+
+     
+
+    }
+
+}
